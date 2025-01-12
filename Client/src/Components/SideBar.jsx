@@ -1,11 +1,11 @@
 import { TfiLayoutGrid2 } from "react-icons/tfi";
 import { TbMovie } from "react-icons/tb";
 import { CiBookmark } from "react-icons/ci";
-import "/SideBar.css";
+import "./SideBar.css";
 
 function SideBar() {
   return (
-    <div>
+    <div className="sideBar">
       <ul>
         <li>
           <TfiLayoutGrid2 />
