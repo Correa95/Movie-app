@@ -5,8 +5,8 @@ import "./SideBar.css";
 
 function SideBar() {
   return (
-    <div className="sideBar">
-      <ul>
+    <div className="navigation">
+      <ul className="sideBar">
         <li>
           <TfiLayoutGrid2 />
         </li>

@@ -1,5 +1,15 @@
-.sideBar {
+.navigation {
   width: 10%;
   height: 100vh;
-  border: 2px solid red;
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.sideBar {
+  width: 70%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: #212121;
 }
