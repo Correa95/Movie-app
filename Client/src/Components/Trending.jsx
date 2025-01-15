@@ -1,9 +1,11 @@
 import "./Trending.css";
 function Trending() {
   return (
-    <div>
-      <h1>Trending</h1>
-      <div className="trendingCard"></div>
+    <div className="trending">
+      <h1 className="header">Trending</h1>
+      <div className="trendingContainer">
+        <div className="trendingCard"></div>
+      </div>
     </div>
   );
 }
